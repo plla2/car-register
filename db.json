@@ -1,0 +1,18 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "dasd",
+      "company": "fasd",
+      "num": "fasd",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "싼타페",
+      "company": "현대",
+      "num": "523러 8423",
+      "active": true
+    }
+  ]
+}
