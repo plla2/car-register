@@ -8,7 +8,7 @@ import CarDetail from "./CarDetail";
 function App() {
   return (
     <div className="App">
-      <h1>Entered Cars's Info</h1>
+      <h1>Entered Car's Info</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CarListing />}></Route>
