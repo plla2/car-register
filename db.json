@@ -1,24 +1,17 @@
 {
   "cars": [
     {
-      "id": 1,
-      "name": "dasd",
-      "company": "fasd",
-      "num": "fasd",
-      "active": true
-    },
-    {
       "id": 2,
       "name": "싼타페",
-      "company": "현대",
+      "company": "afasd",
       "num": "523러 8423",
       "active": true
     },
     {
       "id": 3,
-      "name": "ㅇㅁㄴㅇ",
-      "company": "",
-      "num": "",
+      "name": "dasd",
+      "company": "fasdas",
+      "num": "asdasd",
       "active": true
     }
   ]

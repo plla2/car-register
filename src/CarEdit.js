@@ -5,7 +5,7 @@ const CarEdit = () => {
   const { carid } = useParams();
 
   useEffect(() => {
-    fetch("http://localhost:8000/cars" + carid)
+    fetch("http://localhost:8000/cars/" + carid)
       .then((res) => {
         return res.json();
       })
@@ -33,7 +33,7 @@ const CarEdit = () => {
     e.preventDefault();
     const cardata = { id, name, company, num, active };
 
-    fetch("http://localhost:8000/cars" + carid, {
+    fetch("http://localhost:8000/cars/" + carid, {
       method: "PUT",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(cardata),

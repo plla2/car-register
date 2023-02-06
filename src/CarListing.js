@@ -16,7 +16,7 @@ const CarListing = () => {
 
   const Removefunction = (id) => {
     if (window.confirm("정말 삭제하시겠습니까?")) {
-      fetch("http://localhost:8000/cars" + id, {
+      fetch("http://localhost:8000/cars/" + id, {
         method: "DELETE",
       })
         .then((res) => {
@@ -30,7 +30,7 @@ const CarListing = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:8000/cars")
+    fetch("http://localhost:8000/cars/")
       .then((res) => {
         return res.json();
       })

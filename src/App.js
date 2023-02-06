@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<CarListing />}></Route>
           <Route path="/car/create" element={<CarCreate />}></Route>
           <Route path="/car/edit/:carid" element={<CarEdit />}></Route>
-          <Route path="/car/detail:carid" element={<CarDetail />}></Route>
+          <Route path="/car/detail/:carid" element={<CarDetail />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
